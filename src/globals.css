@@ -1,0 +1,34 @@
+/* src/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* Use non linear gradient background*/
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif; /* Use Roboto font */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+/* Additional global styles */
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Customize text styles */
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
